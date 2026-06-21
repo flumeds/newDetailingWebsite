@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 360" role="img" aria-labelledby="title desc">
+  <title id="title">Sleek Detailing SD monogram</title>
+  <desc id="desc">A cleaned gold SD monogram based on the original hand-drawn logo design.</desc>
+  <rect width="512" height="360" fill="none"/>
+  <g
+    fill="none"
+    stroke="#d6a64a"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    stroke-width="24"
+  >
+    <path d="M102 70 H288 C386 70 454 132 454 212 C454 292 394 324 312 324 H96"/>
+    <path d="M102 70 C86 112 108 154 150 198 C188 238 201 265 187 292 C177 313 156 318 121 318 H74 V326"/>
+    <path d="M172 70 C184 116 208 154 246 204 C276 243 282 286 263 311 C252 326 233 332 207 333"/>
+    <path d="M208 118 H282 C336 118 374 146 392 190 C412 239 382 288 323 300 C304 304 286 305 268 304"/>
+    <path d="M222 158 H282 C332 158 356 179 367 211 C380 251 352 284 307 293 C292 296 277 297 262 297"/>
+  </g>
+</svg>

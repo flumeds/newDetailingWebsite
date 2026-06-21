@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 150" role="img" aria-labelledby="title desc">
+  <title id="title">Sleek wordmark</title>
+  <desc id="desc">A clean gold text logo that says Sleek.</desc>
+  <rect width="460" height="150" fill="none"/>
+  <text
+    x="230"
+    y="95"
+    text-anchor="middle"
+    fill="#d6a64a"
+    font-family="Georgia, Times New Roman, serif"
+    font-size="86"
+    font-weight="700"
+    letter-spacing="2"
+  >
+    Sleek
+  </text>
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 110" role="img" aria-labelledby="title desc">
+  <title id="title">Sleek Detailing logo</title>
+  <desc id="desc">A custom signature-style Sleek Detailing wordmark in gold and white.</desc>
+  <rect width="420" height="110" fill="none"/>
+  <text
+    x="8"
+    y="58"
+    fill="#d6a64a"
+    font-family="Brush Script MT, Segoe Script, cursive"
+    font-size="60"
+    font-style="italic"
+  >
+    Sleek
+  </text>
+  <path
+    d="M18 72 C 80 90, 180 92, 314 69"
+    fill="none"
+    stroke="#d6a64a"
+    stroke-linecap="round"
+    stroke-width="3"
+  />
+  <text
+    x="176"
+    y="94"
+    fill="#ffffff"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="16"
+    font-weight="700"
+    letter-spacing="5"
+  >
+    DETAILING
+  </text>
+</svg>
