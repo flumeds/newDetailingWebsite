@@ -49,7 +49,7 @@ function createReviewCard(review) {
 
   const service = document.createElement("p");
   service.className = "review-card__service";
-  service.textContent = review.meta || review.relativePublishTimeDescription || "";
+  service.textContent = review.meta || "";
 
   header.append(author, stars);
 
