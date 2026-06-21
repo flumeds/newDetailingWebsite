@@ -8,50 +8,9 @@ const reviewsNext = document.querySelector("[data-reviews-next]");
 const reviewConfig = window.SLEEK_GOOGLE_REVIEWS || {};
 let renderedReviews = [];
 let currentReviewPage = 0;
-const mockReviews = [
-  {
-    author: "Jordan M.",
-    rating: 5,
-    meta: "Interior detail",
-    text:
-      "My SUV looked and smelled fresh again. The seats, dash, and floor mats all came back looking much cleaner than I expected."
-  },
-  {
-    author: "Ashley R.",
-    rating: 5,
-    meta: "Mobile appointment",
-    text:
-      "Scheduling was simple and the mobile setup made it easy to get the car cleaned while I was at home. The finish on the paint looked great."
-  },
-  {
-    author: "Daniel T.",
-    rating: 5,
-    meta: "Full detail package",
-    text:
-      "The full detail made a big difference before a weekend trip. Wheels, glass, and interior all looked sharp and ready to go."
-  },
-  {
-    author: "Melissa C.",
-    rating: 5,
-    meta: "Exterior wash",
-    text:
-      "Fast, professional, and the exterior came out glossy without feeling rushed. The tire finish pulled the whole look together."
-  },
-  {
-    author: "Chris P.",
-    rating: 5,
-    meta: "Repeat customer",
-    text:
-      "I booked again because the first visit set the standard. Consistent work, clear communication, and a clean result every time."
-  },
-  {
-    author: "Sofia L.",
-    rating: 5,
-    meta: "Pre-sale cleanup",
-    text:
-      "Needed the car cleaned up before listing it and the detail absolutely helped. The cabin looked brighter and the exterior photos came out better."
-  }
-];
+const fallbackReviews = Array.isArray(reviewConfig.fallbackReviews)
+  ? reviewConfig.fallbackReviews
+  : [];
 
 if (navToggle && siteNav) {
   navToggle.addEventListener("click", () => {
@@ -179,7 +138,7 @@ function renderReviewFallback() {
   }
 
   const { maxReviews = 6 } = reviewConfig;
-  renderReviews(mockReviews, maxReviews);
+  renderReviews(fallbackReviews, maxReviews);
 }
 
 async function loadGoogleReviews() {
