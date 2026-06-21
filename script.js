@@ -88,15 +88,7 @@ function createReviewCard(review) {
   stars.className = "review-card__stars";
   stars.textContent = renderStars(review.rating);
 
-  const service = document.createElement("p");
-  service.className = "review-card__service";
-  service.textContent = review.meta || review.relativePublishTimeDescription || "";
-
   header.append(author, stars);
-
-  if (service.textContent) {
-    header.append(service);
-  }
 
   const body = document.createElement("p");
   body.className = "review-card__text";
